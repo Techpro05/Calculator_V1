@@ -11,3 +11,6 @@ echo" Total is :$x"
 y=$((a - b))
 echo" Total sub :$y"
 
+z=$((a * b))
+echo" Total mul :$z"
+
