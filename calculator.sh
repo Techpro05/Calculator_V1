@@ -1,17 +1,20 @@
-#!/bin/bas3.0
+#!/bin/bash
 #Author : Naveen
-#version :2.0
+#version :3.0
 #Calculator function
 
-a=5
+a=8
 b=5
-x=
-echo" Total is :$x"
+x=$((a + b))
+echo" Total add :$x"
 
 y=$((a - b))
 echo" Total sub :$y"
 
 
-f=$((a %  b))
+f=$((a % b))
+echo" Total div :$y"
 
+z=$((a * b))
+echo" Total mul :$z"
 
